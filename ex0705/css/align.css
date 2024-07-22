@@ -1,0 +1,46 @@
+div{
+    background-color: burlywood;
+    margin: 20px;
+}
+p {
+    width:300px;
+    background-color: aqua;
+}
+
+.p1{
+    text-align: right;
+}
+
+.p2{
+    text-align: center;
+}
+
+.p3{
+    text-align: left ;
+}
+/* .d1 {
+    direction: ltr;
+} */
+.d2{
+    /* 우측정력 */
+    direction: rtl;
+    /* 글자를 오른쪽부터 쓰여지게 */
+    unicode-bidi: bidi-override;
+}
+/* 위아래 이미지 배치하기 */
+.img1{
+    vertical-align: baseline;
+}
+
+.img2{
+    vertical-align: text-top;
+}
+.img3{
+    vertical-align: text-bottom;
+}
+.img4{
+    vertical-align: sub;
+}
+.img5{
+    vertical-align: super;
+}

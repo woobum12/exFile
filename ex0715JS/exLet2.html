@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// 함수는 선언하고 Call() 할때 실행된다.
+
+        // step1 : logScope 함수 선언
+        function logScope(){
+            let myLet2 = 22;
+
+            if (myLet2){
+            let myLet = "다른 값";
+            console.log("안에서" + myLet);
+        }
+        console.log("Let밖에서~"+ myLet);
+
+        console.log("밖에서~" + myLet2);
+    }
+
+    logScope();
+    </script>
+</body>
+</html>

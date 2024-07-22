@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.dotted {
+            border-style: dotted;
+            border-width: 5px; 
+        }
+        p.dashed {border-style: dashed;}
+        p.solid {
+            /* 테두리 스타일 */
+            border-style: solid;
+            /* 테두리 위 아래 */
+        border-width: 20px;
+    }
+        p.solid2 {
+            border-style: solid;
+            /* 테두리 위아래 and 양옆 */
+        border-width: 5px 10px;
+    }
+        p.solid4 {
+            border-style:solid ;
+            /* 테두리 위 오른쪽 아래 왼쪽  */
+            border-width : 5px 5px 10px 5px;
+        }
+        p.double {border-style: double}
+        p.groove {border-style: groove;}
+        p.ridge {border-style: ridge;}
+        p.inset {border-style: inset;}
+        p.outset {border-style: outset;}
+    </style>
+</head>
+<body>
+    <h2>테두리 속성</h2>
+    <p class="dotted">A dotted border</p>
+    <p class="dashed">A dashed border.</p>
+    <p class="solid">A solid border.</p>
+    <p class="solid2">A solid border.</p>
+    <p class="solid4">A solid border.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.container{
+    position: relative;
+    background-color: greenyellow;
+}
+
+.black-box{
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+}
+.gray-box{
+    position: absolute;
+    z-index: 3;
+    background: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top:50px;
+}
+.green-box{
+    position: absolute;
+    z-index: 2;
+    background: lightcoral;
+    width: 35%;
+    height: 100px;
+    left: 270px;
+    top: -20px
+}

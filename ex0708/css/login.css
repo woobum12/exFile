@@ -1,0 +1,19 @@
+form {
+    border:10px solid pink
+    
+}
+
+.Movie {
+    margin-left: 35%;
+    width: 300px;
+    height: 300px;
+    
+}
+form {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.login {
+     margin-left: 30%;
+
+    }

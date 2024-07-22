@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- p*2 -->
+    <p></p>
+    <p></p>
+    <!-- div*3 -->
+    <div></div>
+    <div></div>
+    <div></div>
+    <!-- div>p*x -->
+    <div>
+        <p></p>
+        <p></p>
+    </div>
+    <!-- div.pp / .(도트)를 입력하면 클래스 이름이 들어온다 -->
+    <div class="pp"></div>
+    <!-- div#pp / #을 입력하면 id 이름이 들어온다 -->
+     <div id="pp"></div>
+    <!-- div.pp#pp / #과.(도트)를 입력하면 클래스와 Id 이름이 같이들어옴-->
+     <div class="pp" id="pp"></div>
+    <!-- p.cnt$*3 / .(도트)를 입력하면 클래스가 입력이되고 $랑 *숫자를 입력하면 숫자에 따라 나온다-->
+     <p class="cnt1"></p>
+     <p class="cnt2"></p>
+     <p class="cnt3"></p>
+    <!-- p.cnt$$*3 / 위에 내용과 똑같지만 클래스 네임이 2자리수가 된다 -->
+     <p class="cnt01"></p>
+     <p class="cnt02"></p>
+     <p class="cnt03"></p>
+    <!-- div.container>p#no.cnt>h5*2 -->
+     <!-- div.(도트) : div 태그의 class 이름 / p#no.cnt : #은 p 태그의 id이름 .은 class이름 / >h5*2 / h5 태그가 2개 생성된다-->
+      <div class="container">
+        <p id="no" class="cnt">
+            <h5></h5>
+            <h5></h5>
+        </p>
+      </div>
+
+</body>
+</html>

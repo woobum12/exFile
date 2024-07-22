@@ -1,0 +1,16 @@
+p {
+    background-color: aqua;
+    width: 500px;
+}
+.p1{
+    padding: 50px;
+    margin: 10px 30px;
+}
+.p2{
+    padding: 10px 30px;
+    margin: 50px;
+}
+.p3{
+    padding: 5px 10px 15px 20px;
+    margin: 30px;
+}

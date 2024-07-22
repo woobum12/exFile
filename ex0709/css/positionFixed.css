@@ -1,0 +1,7 @@
+div.fixed {
+    position: fixed;
+    border: 1px solid red;
+    width: 300px;
+    bottom: 20px;
+    right: 20px;
+}

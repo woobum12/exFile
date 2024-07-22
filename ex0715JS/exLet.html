@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// 함수는 선언하고 Call() 할때 실행된다.
+
+        // step1 : logScope 함수 선언
+        function logScope(){
+            // 함수안에서 localVar변수가 생성 및 초기화(2)
+            let localVar = 2;
+            // 함수안에서 값을 출력
+            console.log("안에서" + localVar);
+
+            //소멸시점 let으로 선언된 지역(블록)변수는 }으로 닫히기 직전에 사라진다***
+        }
+        //  step2 : logScope함수를 Call부르는 부분
+        logScope();
+        // step3 : 이미 소멸된 함수를 선언해서 죽음
+        console.log("밖에서~" + localVar);
+    </script>
+</body>
+</html>
